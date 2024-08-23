@@ -24,11 +24,6 @@ time.sleep(5)
 
 # Fazer pesquisas dos números entre 0 e 37
 for i in range(38):
-    # Selecionar todo o texto existente e apagar
-    pyautogui.hotkey('ctrl', 'a')
-    pyautogui.press('backspace')
-    
-    # Digitar o novo número e pesquisar
     pyautogui.write(str(i))
     pyautogui.press('enter')
     time.sleep(5)
